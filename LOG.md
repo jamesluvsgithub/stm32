@@ -3,7 +3,7 @@ This is where I document each day that I work on the STM32. It includes everythi
 
 General logs will have the following format:
 
-### MM/DD/YYY
+### MM/DD/YYYY
 
 __Activity__
 - Something that I did
