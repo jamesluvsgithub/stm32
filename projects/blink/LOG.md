@@ -48,6 +48,7 @@ ___
 
 __Activity__
 - Moved GPIOB initialization from main function to MX_GPIO_Init()
+- Manually wrote 1 and 0 to the pin with WritePin() rather than using TogglePin()
 
 __Issues__
 - LED still does not blink...
@@ -59,5 +60,6 @@ __Possible Solutions and Next Steps__
 __Comments__
 - Aw rats
 ___
+
 
 
