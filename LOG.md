@@ -1,7 +1,9 @@
 # LOG.md
-This is where I document each day that I work on the STM32. It includes everything that I tried, all my successes, and all my failures.
+Each project has its own LOG.md file. These files are where I will log my progress in the project, including my successes, failures, and inner thoughts.
 
-General logs will have the following format:
+This LOG.md is for logs that don't fit into any project.
+
+Logs can either be a daily log or a project log. Daily logs will have the following format:
 
 ### MM/DD/YYYY
 
@@ -20,7 +22,7 @@ __Comments__
 ___
 
 
-project logs will have the following format:
+Project logs will have the following format:
 ## Project Name
 ### MM/DD/YYYY - MM/DD/YYYY (start date - end date)
 
