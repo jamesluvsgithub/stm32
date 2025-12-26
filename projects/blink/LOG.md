@@ -3,14 +3,18 @@
 
 __Abstract__
 - This is a simple blink project using the STM32's HAL calls
-- Applications of the project
+- The board's green LED will toggle on and off in 500 ms intervals
 
 __Issues__
-- Any problems encountered
+- The LED seemingly refused to blink, even after:
+    - Moving initialization steps to many different functions
+    - A lot of time trying different at Run configurations
+    - Manually writing 1 and 0 to the pin with WritePin() rather than using TogglePin()
 
 __What I learned__
 - How to generate code in STM32CudeIDE by configuring the .ioc
 - Using basic HAL functions, like HAL_GPIO_TogglePin()
+- The process of building and runnning a project
 
 __Comments__
 - This was... harder than expected..
@@ -50,7 +54,9 @@ __Issues__
 
 __Possible Solutions and Next Steps__
 - Read more documentation or watch more Youtube videos on how to initialize a port pin
+- Check debug/run and build configurations. Perhaps the board isn't even receiving the code somehow..?
 
 __Comments__
 - Aw rats
 ___
+
