@@ -15,6 +15,7 @@ __Issues__
     - Moving initialization steps to many different functions
     - A lot of time trying different at Run configurations
     - Manually writing 1 and 0 to the pin with WritePin() rather than using TogglePin()
+    - Unplugging and replugging the board to cause a reset
 
 __Comments__
 - This was... harder than expected..
@@ -60,6 +61,7 @@ __Possible Solutions and Next Steps__
 __Comments__
 - Aw rats
 ___
+
 
 
 
