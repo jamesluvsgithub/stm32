@@ -3,7 +3,7 @@
 
 __Abstract__
 - This is a simple blink project using the STM32's HAL calls
-- The board's green LED will toggle on and off in 500 ms intervals
+- The board's blue LED will toggle on and off in 500 ms intervals
 
 __What I learned__
 - How to generate code in STM32CudeIDE by configuring the .ioc
