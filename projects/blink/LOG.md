@@ -37,7 +37,7 @@ __Issues__
 - LED does not blink...
 
 __Possible Solutions and Next Steps__
-- Analyze the initialization stage of my code
+- Analyze the initialization stage of my code; the main loop (two lines of code) seems to check out..
 
 __Comments__
 - Oh no
@@ -57,6 +57,7 @@ __Issues__
 __Possible Solutions and Next Steps__
 - Read more documentation or watch more Youtube videos on how to initialize a port pin
 - Check debug/run and build configurations. Perhaps the board isn't even receiving the code somehow..?
+- Move initialization somewhere else? Maybe my configurations are being overwritten somehow?????
 
 __Comments__
 - Aw rats
@@ -64,4 +65,19 @@ ___
 
 
 
+### 12/28/2025
 
+__Activity__
+- I did it. I finally did it.
+- After running the program in debug mode, I found that the program reached MX_ETH_Init() and then stopped.
+- Commenting out the function and resetting allowed the LED to blink
+
+__Issues__
+- NONE
+
+__Possible Solutions and Next Steps__
+- Investigate MX_ETH_Init() and find out why it breaks the program
+
+__Comments__
+- Yay!! Still have some work to do though...
+___
