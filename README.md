@@ -1,4 +1,4 @@
-# stm32
+# stm32 hi pookie bear
 Repository for all of the source code for my STM32 projects.
 
 I used a Nucleo-144 F439ZI development board with the STM32F439ZI. All my progress with this project is documented within LOG.md
