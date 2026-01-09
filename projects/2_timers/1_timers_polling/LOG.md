@@ -47,7 +47,7 @@ __Activity__
 - Wrote the code to change the active LED and keep the selected LED on until the user button is released
 
 __Issues__
-- The green LED stays off while the button is held down
+- The green LED stays off while the button is held down (incorrect!)
   - The red and blue stay on (correct!)
 
 __Possible Solutions and Next Steps__
